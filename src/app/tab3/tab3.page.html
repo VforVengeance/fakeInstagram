@@ -1,9 +1,13 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab Three
+      Impostazioni
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+    <ion-label>Set Author Here</ion-label>
+    <ion-input placeholder="Insert your author here" [(ngModel)]="author"></ion-input>
+    <ion-button (click)='set()'>Set</ion-button>
+</ion-content>
